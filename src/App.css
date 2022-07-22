@@ -7,7 +7,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 30px 60px;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   height: 60vh;
   background-color: #1f2535;
   color: white;
-  padding: 20px 60px;
+  padding: 30px 60px;
 }
 
 header > h1 {
@@ -39,28 +39,6 @@ header > button {
   font-weight: bold;
 }
 
-section.section {
-  display: flex;
-  justify-content: center;
-  height: 40vh;
-  color: #1f2535;
-  padding: 20px;
-}
-
-article.card {
-  width: 20%;
-}
-
-article.card p {
-  width: 70%;
-  padding-left: 20px;
-}
-
-article.card h2 {
-  margin-bottom: 10px;
-  padding-left: 20px;
-}
-
 header div.container {
   display: flex;
   width: 100%;
@@ -75,4 +53,34 @@ header div.container img:first-child {
 header div.container img:nth-child(2) {
   width: auto;
   height: 12px;
+}
+
+section.section {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  color: #1f2535;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+article.card {
+  width: 15%;
+}
+
+article.card p {
+  width: 70%;
+  padding-left: 15px;
+  font-size: 1.1em;
+}
+
+article.card h2 {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-size: 1.6em;
+}
+
+article.card img {
+  height: 130px;
+  width: 130px;
 }

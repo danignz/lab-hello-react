@@ -15,7 +15,7 @@ export default function Section() {
       <article className="card">
         <img src={icon2} alt="Pic about Components article" />
         <h2>Components</h2>
-        <p>Build encapsulated componentes that manage their state</p>
+        <p>Build encapsulated components that manage their state.</p>
       </article>
       <article className="card">
         <img src={icon3} alt="Pic about Sigle-Way article" />
@@ -25,7 +25,7 @@ export default function Section() {
       <article className="card">
         <img src={icon4} alt="Pic about JSX article" />
         <h2>JSX</h2>
-        <p>Statically-typed, designed to run on moderm browsers.</p>
+        <p>Statically-typed, designed to run on modern browsers.</p>
       </article>
     </section>
   );
